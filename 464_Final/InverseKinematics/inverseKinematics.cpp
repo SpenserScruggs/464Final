@@ -80,10 +80,6 @@ void transform(int duration_in_milliseconds, float current_pos[], float new_pos[
 		servo2.writeMicroseconds(servoParameters(angles[1], 2, servoData));
 		servo3.writeMicroseconds(servoParameters(angles[2], 3, servoData));
 
-  		Serial.print(angles[0]); Serial.print("\t");
-  		Serial.print(angles[1]); Serial.print("\t");
-  		Serial.print(angles[2]); Serial.println("\t");
-
 		delay((int)time_delay);
 	}
 
